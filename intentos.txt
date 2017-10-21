@@ -1,0 +1,249 @@
+include<stdio.h>
+
+/* a igual que b*/
+
+int main(){
+    int a,b;
+    unsigned int a,b;
+    a=3;
+    b=5; 
+
+    if(a==0){
+     if(b==0){
+     printf ("a es igual a b");
+    
+     }
+	  return 0;
+	  else {  
+      printf ("a es diferente b");
+   
+     } 
+       return 0;
+     }
+    if (a!=0){
+    if(b==0){
+    printf  ("a es diferente de b");
+    } else {
+    while (a!=0)&&(b!=0){
+a=a-1;
+b=b-1;
+if(a==0){
+if(b==0){
+printf ("a es igual a b");
+
+}
+ return 0;
+else{ 
+printf ("a es diferente de b")
+
+}
+ return 0;
+}
+if(a!=0){
+if b(==0){
+printf ("a es diferente de b")
+
+}
+return0;
+
+else{
+continue;
+}
+}
+}
+}
+/* fue la primera que metí y me marca error, primero porque metí mal el archivo, después porque había escrito mal algunas palabras y no había puesto ;*/
+
+
+/* a igual que b*/
+
+int main (){
+    int a,b;
+    
+    a=3;
+    b=5; 
+
+    if(a==0){
+    if(b==0){
+     printf ("a es igual a b");
+    return 0;
+     }
+	  
+	  	  
+	  else {  
+      printf ("a es diferente b");
+   return 0;
+     } 
+       
+     }
+     
+     
+    if (a!=0){   	
+    if(b==0){
+    printf  ("a es diferente de b");
+    } else {
+    while ((a!=0) && ( b!=0)){
+	
+    a=a-1;
+    b=b-1;
+    
+    if(a==0){ 
+    if(b==0){
+    printf ("a es igual a b");
+    return 0;
+    
+}
+}
+}
+  }
+}
+  
+  else { 
+   printf ("a es diferente de b");
+return 0;
+  }  
+  
+  
+  if(a!=0) {
+  if(b==0) {
+  printf ("a es diferente de b");
+  
+  return 0; }
+
+  }
+  
+else { 
+continue; 
+
+}
+
+  return 0; 
+  }
+  
+/*Me marcaban varios errores y trate de cambiarlo pero no podía meter el continue*/
+
+
+Después intenté cambiar de todo, conté las llaves, cambiaba cosas y nada, y se me olvido guardar esos intentos, pero cambié borré unos paréntesis de la acción del While y agregué una llave más , ya me compilaba, pero me ejecutaba mal, cuando le metía otros números.
+
+Así que volví a leer la práctica e hice esto.
+#include <stdio.h>
+
+    /* a es mayor que b o igual que b*/
+    
+int main()
+{
+  unsigned int a,b;
+a=3;
+b=5;
+    if(a==0)
+    {
+   if(b==0)
+       {
+      printf("a es igual que b");
+     
+      } else {
+    printf("a no es igual  que b");
+   
+      }
+    }
+    if(a>0)
+    {
+  if(b==0) 
+   {
+   printf("a es mayor que b ");
+   
+       } else {
+   while(a>0 && b>0)
+   {
+       a=a-1;
+       b=b-1;  
+       if(a==0) 
+     {
+   if(b==0)
+   {
+   printf("a es igual que b");
+ 
+  }
+   else {
+   printf("a no es igual que b");
+   
+ }
+   }
+   if(b>0) 
+ {
+  if(a==0)
+ {
+   printf("b es mayor que a");
+   
+     } else {
+        continue; 
+  }
+    }
+  }
+ }
+}
+return 0; 
+  } 
+/*cambie el de diferente de por mayor que 0, de igual forma quité los return 0; que estaban arriba y me ejecutó bien, así que decidí cambiarla para ver si funcionaba como el programa que había hecho al principio*/
+
+
+/* a es mayor que b o igual que b*/
+    
+int main()
+{
+  unsigned int a,b;
+a=3;
+b=5;
+    if(a==0)
+    {
+   if(b==0)
+       {
+      printf("a es igual que b");
+      return 0;
+      } else {
+    printf("a no es igual  que b");
+    return 0;
+      }
+    }
+    if(a=!0)
+    {
+  if(b==0) 
+   {
+   printf("a es mayor que b ");
+   return 0;
+       } else {
+   while(a!=0 && b!=0)
+   {
+       a=a-1;
+       b=b-1;  
+       if(a==0) 
+     {
+   if(b==0)
+   {
+   printf("a es igual que b");
+   return 0;
+  }
+   else {
+   printf("a no es igual que b");
+    return 0;
+ }
+   }
+   if(b!=0) 
+ {
+  if(a==0)
+ {
+   printf("b es mayor que a");
+   return 0; 
+     } else {
+        continue; 
+  }
+    }
+  }
+ }
+}
+ return 0; 
+  } 
+
+/*Los puse y fue el programa que me compiló y ejecutó bien.*/ 
+
+ 
